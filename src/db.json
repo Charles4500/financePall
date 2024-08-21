@@ -1,0 +1,18 @@
+{
+  "transactions": [
+    {
+      "id": "8e52",
+      "date": "2024-08-09",
+      "description": "movies",
+      "category": "entertainment",
+      "amount": "100"
+    },
+    {
+      "id": "98ee",
+      "date": "2024-08-09",
+      "description": "rent",
+      "category": "house",
+      "amount": "100"
+    }
+  ]
+}

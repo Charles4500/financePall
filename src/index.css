@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header-container {
+  background-color: #050207;
+  padding: 10px;
+}
+
+.header-container h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  margin: 0;
+}
+
+.search-container {
+  margin: 10px 10px 20px 10px;
+}
+
+.search-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(212, 212, 212);
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.search-container input[type="text"]:focus {
+  outline: none;
+  border-color: none;
+}
+
+.search-container input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+.form-container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin: 10px 10px 20px 10px;
+  border: 1px solid rgb(212, 212, 212);
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-row .input-column {
+  margin-right: 10px;
+  flex: 1;
+}
+
+.input-row .input-column:last-child {
+  margin-right: 0;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper label {
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.input-field:focus {
+  border: 1px solid rgb(27, 156, 196);
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  text-align: center;
+  outline: #5300a1;
+  width: 100%;
+}
+
+.submit-button {
+  padding: 8px 16px;
+  background-color: #878787;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.submit-button:hover {
+  background-color: #5e5e5e;
+}
+
+.transaction-table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: 10px;
+  width: 98%;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.transaction-table th {
+  color: #333;
+  font-weight: bold;
+}
+
+.transaction-table td {
+  background-color: #fff;
+  color: #333;
+}
+
+.transaction-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.transaction-table tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+.sort-container {
+  display: flex;
+  align-items: center;
+  margin: 10px 10px 20px 10px;
+}
+
+.sort-container label {
+  margin-right: 0.5rem;
+  font-weight: 600;
+}
+
+.sort-container select {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.no-transactions {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
